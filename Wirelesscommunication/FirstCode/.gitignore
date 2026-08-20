@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated model weights and simulation results
+awgn_autoencoder_weights_*
+awgn_autoencoder_results*
