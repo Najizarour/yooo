@@ -6,6 +6,7 @@ This repository contains two PyTorch tutorials that share one Python 3.12 virtua
 
 - `First Code/fgsm_tutorial.ipynb` — FGSM adversarial examples on MNIST.
 - `Second Code/char_rnn_classification_tutorial.ipynb` — surname-language classification with a character-level RNN.
+- `Third Code/mario_rl_tutorial.ipynb` — Deep Q-learning with a Super Mario Bros environment.
 
 ## Shared environment
 

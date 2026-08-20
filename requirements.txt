@@ -1,6 +1,11 @@
 torch
 torchvision
-numpy
+numpy<2
 matplotlib
 jupyter
 ipykernel
+gym==0.26.2
+nes-py==8.2.1
+gym-super-mario-bros==7.4.0
+torchrl
+tensordict
