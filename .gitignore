@@ -9,4 +9,4 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
-
+data/
