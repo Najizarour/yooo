@@ -1,10 +1,16 @@
-# Third Code: Mario Reinforcement Learning
+# Machine Learning Tutorials
 
-This notebook follows PyTorch's Mario reinforcement-learning tutorial. It builds a Deep Q-Network agent and trains it in the `SuperMarioBros-1-1-v0` NES environment.
+This repository contains PyTorch tutorials that share one Python 3.12 virtual environment.
 
-## Setup
+## Projects
 
-All tutorials share the Python 3.12 environment at the repository root. From the repository root:
+- `First Code/fgsm_tutorial.ipynb` — FGSM adversarial examples on MNIST.
+- `Second Code/char_rnn_classification_tutorial.ipynb` — surname-language classification with a character-level RNN.
+- `Third Code/mario_rl_tutorial.ipynb` — Deep Q-learning with a Super Mario Bros environment.
+
+## Shared environment
+
+From the repository root:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
@@ -13,7 +19,7 @@ Set-Location '.\Third Code'
 jupyter notebook mario_rl_tutorial.ipynb
 ```
 
-In VS Code, select the root `.venv` as the notebook kernel.
+In VS Code, select the root `.venv` interpreter as the notebook kernel.
 
 ## Dependencies
 
@@ -28,6 +34,8 @@ These are included in the root `requirements.txt`.
 
 ## Training output
 
-The notebook trains for 40 episodes and may take a while on CPU. Logs, plots, replay-buffer files, and model checkpoints are written under `checkpoints/`. That directory is ignored by Git because its contents are generated and can become large.
+The Mario notebook trains for 40 episodes and may take a while on CPU. Logs, plots, replay-buffer files, and model checkpoints are written under `checkpoints/`.
 
 On Windows, the replay buffer is explicitly disk-backed under the run's checkpoint directory to avoid exhausting the system page file.
+
+Generated datasets, cached models, and the virtual environment are excluded from Git and can be recreated.
