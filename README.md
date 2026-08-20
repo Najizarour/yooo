@@ -1,32 +1,21 @@
-# FGSM Adversarial Example Tutorial
+# Machine Learning Tutorials
 
-This project contains a runnable PyTorch notebook demonstrating the Fast Gradient Sign Method (FGSM) attack against an MNIST classifier.
+This repository contains two PyTorch tutorials that share one Python 3.12 virtual environment.
 
-## Setup
+## Projects
 
-The project uses Python 3.12 and a virtual environment in `.venv`.
+- `First Code/fgsm_tutorial.ipynb` — FGSM adversarial examples on MNIST.
+- `Second Code/char_rnn_classification_tutorial.ipynb` — surname-language classification with a character-level RNN.
+
+## Shared environment
+
+From the repository root:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-jupyter notebook fgsm_tutorial.ipynb
 ```
 
-In VS Code, open `fgsm_tutorial.ipynb` and select `.venv` as the notebook kernel.
+In VS Code, select the root `.venv` interpreter as the kernel for both notebooks. Run each notebook from its own project folder so relative `data/` paths resolve to that tutorial's dataset.
 
-## Running the notebook
-
-Run the cells from top to bottom. MNIST is downloaded automatically into `data/`.
-
-The original tutorial expected `data/lenet_mnist_model.pth`, but its external download link is no longer available. If the file is missing, the notebook now trains a replacement model for one epoch and saves it at that path. This is a one-time CPU setup; later runs load the cached weights directly.
-
-The `data/` directory and virtual environment are ignored by Git because both can be recreated.
-
-## Dependencies
-
-- PyTorch and torchvision
-- NumPy
-- Matplotlib
-- Jupyter and ipykernel
-
-See `requirements.txt` for the installable dependency list.
+Generated datasets, cached models, and the virtual environment are excluded from Git and can be recreated.
