@@ -1,0 +1,5 @@
+sionna==2.0.1
+torch==2.13.0
+numpy==2.5.2
+matplotlib==3.11.1
+ipykernel==7.3.0
