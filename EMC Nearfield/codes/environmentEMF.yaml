@@ -1,0 +1,12 @@
+name: environmentEMF
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - matplotlib
+    - numpy
+    - pandas
+    - scikit-learn
+    - scipy
