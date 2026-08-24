@@ -1,0 +1,4 @@
+{
+  "mean_absolute_error_test_input_scaled": "mean_absolute_error(y_true=y_predicted, y_pred=test_output_scaled)",
+  "mean_squared_error_test_input_scaled": "mean_squared_error(y_true=y_predicted, y_pred=test_output_scaled)"
+}

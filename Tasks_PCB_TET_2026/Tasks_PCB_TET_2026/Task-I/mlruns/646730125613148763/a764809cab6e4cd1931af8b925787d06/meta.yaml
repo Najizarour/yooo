@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tejh/Documents/teaching/ml_ee/Tasks_PCB_TET_2025/Task-I/mlruns/646730125613148763/a764809cab6e4cd1931af8b925787d06/artifacts
+end_time: 1748857248516
+entry_point_name: ''
+experiment_id: '646730125613148763'
+lifecycle_stage: active
+run_id: a764809cab6e4cd1931af8b925787d06
+run_name: masked-eel-11
+run_uuid: a764809cab6e4cd1931af8b925787d06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748857240804
+status: 3
+tags: []
+user_id: tejh

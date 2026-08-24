@@ -1,0 +1,9 @@
+digest: 6a61e25e
+name: dataset
+profile: '{"features_shape": [2400, 2], "features_size": 4800, "features_nbytes":
+  38400}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 2]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "tejh", "mlflow.source.name": "/home/tejh/.conda/envs/ml-in-et-it-tet-2025/lib/python3.13/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tejh/Documents/teaching/ml_ee/Tasks_PCB_TET_2025/Task-I/mlruns/878309680374885023/f35467a28a334078a28612d9139e4222/artifacts
+end_time: 1748857657011
+entry_point_name: ''
+experiment_id: '878309680374885023'
+lifecycle_stage: active
+run_id: f35467a28a334078a28612d9139e4222
+run_name: enthused-seal-755
+run_uuid: f35467a28a334078a28612d9139e4222
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748857603266
+status: 3
+tags: []
+user_id: tejh

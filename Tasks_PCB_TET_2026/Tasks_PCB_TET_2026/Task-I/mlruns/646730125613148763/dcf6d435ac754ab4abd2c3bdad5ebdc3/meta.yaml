@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tejh/Documents/teaching/ml_ee/Tasks_PCB_TET_2025/Task-I/mlruns/646730125613148763/dcf6d435ac754ab4abd2c3bdad5ebdc3/artifacts
+end_time: 1748857321463
+entry_point_name: ''
+experiment_id: '646730125613148763'
+lifecycle_stage: active
+run_id: dcf6d435ac754ab4abd2c3bdad5ebdc3
+run_name: incongruous-auk-591
+run_uuid: dcf6d435ac754ab4abd2c3bdad5ebdc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748857288933
+status: 3
+tags: []
+user_id: tejh

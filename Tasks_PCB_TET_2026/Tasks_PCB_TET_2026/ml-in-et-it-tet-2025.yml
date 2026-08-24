@@ -1,0 +1,11 @@
+name: ml-in-et-it-tet-2025
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - mlflow
+  - numpy
+  - pandas
+  - scikit-learn

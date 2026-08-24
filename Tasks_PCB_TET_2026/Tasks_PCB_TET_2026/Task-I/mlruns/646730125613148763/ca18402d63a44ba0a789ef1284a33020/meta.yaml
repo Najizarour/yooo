@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tejh/Documents/teaching/ml_ee/Tasks_PCB_TET_2025/Task-I/mlruns/646730125613148763/ca18402d63a44ba0a789ef1284a33020/artifacts
+end_time: 1748441362958
+entry_point_name: ''
+experiment_id: '646730125613148763'
+lifecycle_stage: active
+run_id: ca18402d63a44ba0a789ef1284a33020
+run_name: languid-robin-899
+run_uuid: ca18402d63a44ba0a789ef1284a33020
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748441360622
+status: 3
+tags: []
+user_id: tejh

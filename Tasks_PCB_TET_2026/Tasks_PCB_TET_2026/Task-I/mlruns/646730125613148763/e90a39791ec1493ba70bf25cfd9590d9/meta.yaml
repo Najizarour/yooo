@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tejh/Documents/teaching/ml_ee/Tasks_PCB_TET_2025/Task-I/mlruns/646730125613148763/e90a39791ec1493ba70bf25cfd9590d9/artifacts
+end_time: 1748856016770
+entry_point_name: ''
+experiment_id: '646730125613148763'
+lifecycle_stage: active
+run_id: e90a39791ec1493ba70bf25cfd9590d9
+run_name: salty-rat-300
+run_uuid: e90a39791ec1493ba70bf25cfd9590d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748856011141
+status: 3
+tags: []
+user_id: tejh

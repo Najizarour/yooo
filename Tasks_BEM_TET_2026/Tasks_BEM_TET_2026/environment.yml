@@ -1,0 +1,19 @@
+name: BEM
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - ffmpeg
+  - opencv
+  - pyfftw
+  - swig
+  - pip:
+    - IPython
+    - Jupyter
+    - jupyterlab
+    - matplotlib
+    - numpy
+    - pandas
+    - scikit-learn
+    - scipy
