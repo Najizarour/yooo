@@ -33,7 +33,7 @@ def get_vrm_network(ntw_board, r = 0.05, l = 2e-9):
     return rf.Network(frequency = freq, z = imp_array, f_unit='Hz')
 
 def connect_to_network(ntw_decap, ntw_board, board_port = 2):
-    ntw_connected = rf.connect(ntw_board, board_port, ntw_decap, 0)
+    ntw_connected = rf.network.connect(ntw_board, board_port, ntw_decap, 0)
     return ntw_connected
 
 def get_violation_frequency(ntw, port_interest = 1, target_impedance = 0.03):
